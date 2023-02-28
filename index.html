@@ -21,8 +21,157 @@
         </div>
       </div>
     </nav>
+    <section id="intro" class="intro-section">
+      <div class="container">
+        <div class="subtitle">
+          <strong>Software Engineer</strong>
+          <div>
+            <i class="bi bi-geo-alt-fill"></i> Wheeling, WV
+          </div>
+        </div>
+        <div class="intro-contact">
+          <a href="https://www.linkedin.com/in/sabryna-hancock" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/sabrynahancock" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="mailto:sabrynavazus@gmail.com" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-about-img">
+            <div class="profile-img-container">
+              <div class="shadow-one"></div>
+              <div class="shadow-two"></div>
+              <img src="img/me.jpeg" class="profile-img" alt="Sabryna's photo">
+            </div>
+          </div>
+          <div class="col-lg-6 col-text">
+            <h2 class="display">About Me</h2>
 
-    <h1>hello</h1>
-  <h2>hi</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2>Technical Stack</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="75"/>
+                <div>Python</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="75"/>
+                <div>Flask</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="75"/>
+                <div>Javascript</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" width="75"/>
+                <div>HTML</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="75"/>
+                <div>CSS</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="75"/>
+                <div>ReactJS</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" width="75"/>
+                <div>SQLAlchemy</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" width="75"/>
+                <div>PostgreSQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="project-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="project-background">
+              <img src="img/IMG_0051.jpg" class="catherapy-img">
+            </div>
+          </div>
+          <div class="col-lg-4 col-text">
+            <div class="col-v-center">
+              <h3 class="project-title">Catherapy</h3>
+              <p>A mental health app that connects patients and doctors. Doctors update their profile with availability, accepted insurances, and specialties. Patients track their mood and search for doctors by using filters such as distance, insurances, and specialties. The app makes it easier for patients to find the right mental care provider and helps doctors manage their practice effectively.</p>
+
+              <div class="project-links">
+                <a href="https://github.com/sabrynahancock/Catherapy" target="_blank" class="link">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+       
+        allowTouchMove: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+        
+          768: {
+              slidesPerView: 5,
+              
+          }
+        }
+      });
+    </script>
+
+  </body>
+  <footer>
+    <div>
+      <span>©</span> Sabryna Hancock
+    </div>
+    <div class="footer-contact">
+      <a href="https://www.linkedin.com/in/sabryna-hancock" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/sabrynahancock" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="mailto:sabrynavazus@gmail.com" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </footer>
+</html>
+
