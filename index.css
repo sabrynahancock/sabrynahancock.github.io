@@ -1,0 +1,81 @@
+/* Set background color */
+body {
+    background-color: #f5e8e8;
+  }
+  
+  /* Set font style */
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Style for main container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style for each box */
+  .box {
+    width: 30%;
+    height: 200px;
+    background-color: #f1c5c5;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Add hover effect to each box */
+  .box:hover {
+    background-color: #f3a3a3;
+    cursor: pointer;
+  }
+  
+  /* Style for box title */
+  .box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  /* Style for box content */
+  .box p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  /* Add cute icon to each box */
+  .box:before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f5e8e8;
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #f1c5c5;
+    box-shadow: 0px 0px 10px #f1c5c5;
+  }
+  
+  /* Add different icons to each box */
+  .box:nth-child(1):before {
+    content: '🐶';
+  }
+  .box:nth-child(2):before {
+    content: '🐱';
+  }
+  .box:nth-child(3):before {
+    content: '🐰';
+  }
