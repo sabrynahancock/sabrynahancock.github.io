@@ -133,3 +133,49 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
 }
+
+.project-section {
+  background-color: #f8f9fa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.project-background {
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.catherapy-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.col-text {
+  padding-top: 40px;
+}
+
+.project-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  margin-top: 30px;
+}
+
+.link {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: #0062cc;
+}
