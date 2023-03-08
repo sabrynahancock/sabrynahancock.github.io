@@ -156,16 +156,46 @@ body {
   padding-top: 40px;
 }
 
+.project-section {
+  margin-bottom: 40px;
+}
+
 .project-title {
-  font-size: 36px;
+  padding-bottom: 10px;
+  font-style: normal;
   font-weight: 700;
-  margin-bottom: 20px;
+  font-size: 26px;
+  line-height: 44px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.project-background {
+  width: 100%;
+  background-color: var(--second-color);
+  padding: 60px 0 40px;
+
+}
+
+.project-img {
+  max-width: 100%;
+  width: 700px;
+  margin: 0 auto;
+  display: block;
 }
 
 .project-links {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
+.project-links a.link {
+  font-size: 18px;
+  margin-right: 10px
+}
+
+.project-links a.link:hover::after {
+  height: 22px;
+}
 .link {
   display: inline-block;
   padding: 12px 32px;
